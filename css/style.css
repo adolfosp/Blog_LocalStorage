@@ -1,0 +1,36 @@
+@font-face {
+  font-family: "RanilleNormal";
+  src: url(../fonts/RanilleNormalRegular-EaZJj.ttf);
+}
+body {
+  background-color: indianred;
+}
+
+.container {
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-template-rows: 200px minmax(100px, 200px) 200px;
+  gap: 20px 20px;
+  justify-items: center;
+}
+.container div.item {
+  width: 50px;
+  background-color: white;
+  -webkit-box-shadow: 0px -4px 72px 22px rgba(0, 0, 0, 0.19);
+  -moz-box-shadow: 0px -4px 72px 22px rgba(0, 0, 0, 0.19);
+  box-shadow: 0px -4px 72px 22px rgba(0, 0, 0, 0.19);
+  border-radius: 10px;
+  padding: 2px;
+  width: 100px;
+  font-family: RanilleNormal;
+}
+.container div.form {
+  padding: 10px;
+  border-radius: 10px;
+  width: auto;
+  justify-self: left;
+  background-color: white;
+}
+
+/*# sourceMappingURL=style.css.map */
